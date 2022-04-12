@@ -159,7 +159,7 @@ int main(int argc, char const *argv[])
 				CPU = NULL;
 			}
 		}
-		// 		2) WIP: Process in process list whose timeStart == time
+		// 		2) Process in process list whose timeStart == time
 		for(int i = 0; i < scheduler->processes->used; i++)
 		{
 			Process* process = scheduler->processes->array[i];
